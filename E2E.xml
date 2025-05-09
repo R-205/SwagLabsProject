@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <test name="E2e_Scenario">
+        <classes>
+            <class name="negativeE2eScenarios.NegativeE2eScenarios"/>
+            <class name="positive.PositiveE2eScenarios"/>
+        </classes>
+    </test>
+</suite>

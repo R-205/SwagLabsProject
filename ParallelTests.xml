@@ -1,0 +1,12 @@
+<suite name="Parallel Tests" parallel="tests" thread-count="4">
+<test name="Test1">
+    <classes>
+        <class name="negativeE2eScenarios.NegativeE2eScenarios"/>
+    </classes>
+</test>
+<test name="Test2">
+    <classes>
+        <class name="positive.PositiveE2eScenarios"/>
+    </classes>
+</test>
+</suite>

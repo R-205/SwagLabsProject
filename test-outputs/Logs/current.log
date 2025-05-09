@@ -1,0 +1,71 @@
+INFO - [09-05-2025 18-43-41] [main] [listener.Listeners] - Test Execution started
+INFO - [09-05-2025 18-44-11] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Navigating directly to inventory page without login
+INFO - [09-05-2025 18-44-21] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Checking if redirection to login page happened.
+INFO - [09-05-2025 18-44-21] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Not allowed to Navigate directly to inventory page without login
+INFO - [09-05-2025 18-44-21] [main] [listener.Listeners] - Test Case:accessingHomePageWithoutLoginpassed
+INFO - [09-05-2025 18-45-01] [main] [negativeE2eScenarios.NegativeE2eScenarios] -  invalid login with invalid credintials.
+INFO - [09-05-2025 18-45-01] [main] [listener.Listeners] - Test Case:invalidLoginpassed
+INFO - [09-05-2025 18-45-10] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-45-11] [main] [negativeE2eScenarios.NegativeE2eScenarios] - sucessful logout
+INFO - [09-05-2025 18-45-11] [main] [negativeE2eScenarios.NegativeE2eScenarios] - error message when navigating back after logout
+INFO - [09-05-2025 18-45-11] [main] [negativeE2eScenarios.NegativeE2eScenarios] - End test: Navigation back after logout handled correctly
+INFO - [09-05-2025 18-45-11] [main] [listener.Listeners] - Test Case:NavigatBackAfterLogoutpassed
+INFO - [09-05-2025 18-45-29] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-45-29] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Products added to cart successfully.
+INFO - [09-05-2025 18-45-30] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Navigated to checkout page.
+INFO - [09-05-2025 18-45-31] [main] [listener.Listeners] - Test Case:verifyCheckoutFormWithoutFnamepassed
+INFO - [09-05-2025 18-45-38] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-45-39] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Products added to cart successfully.
+INFO - [09-05-2025 18-45-39] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Navigated to checkout page.
+INFO - [09-05-2025 18-45-39] [main] [listener.Listeners] - Test Case:verifyCheckoutFormWithoutLnamepassed
+INFO - [09-05-2025 18-45-45] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-45-46] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Products added to cart successfully.
+INFO - [09-05-2025 18-45-46] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Navigated to checkout page.
+INFO - [09-05-2025 18-45-47] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Verified error message for missing Postal Code.
+INFO - [09-05-2025 18-45-47] [main] [listener.Listeners] - Test Case:verifyCheckoutFormWithoutPostalCodepassed
+INFO - [09-05-2025 18-45-54] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-45-54] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Adding first product to cart.
+INFO - [09-05-2025 18-45-54] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Resetting app state from the menu.
+INFO - [09-05-2025 18-45-55] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Re-adding the same product after reset.
+INFO - [09-05-2025 18-45-55] [main] [listener.Listeners] - Test Case:checkAddTheSameProAfterResetfailed
+INFO - [09-05-2025 18-46-01] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-46-01] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Checking if cart is empty before checkout.
+INFO - [09-05-2025 18-46-01] [main] [negativeE2eScenarios.NegativeE2eScenarios] - Clicking on checkout button without products in cart.
+INFO - [09-05-2025 18-46-03] [main] [listener.Listeners] - Test Case:checkCheckoutWithoutAnyProductfailed
+INFO - [09-05-2025 18-46-08] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-46-09] [main] [positive.PositiveE2eScenarios] - two products are added to cart
+INFO - [09-05-2025 18-46-09] [main] [positive.PositiveE2eScenarios] - one of product is removed from the cart successfully
+INFO - [09-05-2025 18-46-11] [main] [listener.Listeners] - Test Case:CheckRemoveProductFromCartpassed
+INFO - [09-05-2025 18-46-22] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-46-22] [main] [positive.PositiveE2eScenarios] - product is added to cart
+INFO - [09-05-2025 18-46-24] [main] [positive.PositiveE2eScenarios] - checkout successfully
+INFO - [09-05-2025 18-46-24] [main] [listener.Listeners] - Test Case:addSpecificItemToCardpassed
+INFO - [09-05-2025 18-46-30] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-46-31] [main] [positive.PositiveE2eScenarios] - all products are added to cart
+INFO - [09-05-2025 18-46-33] [main] [positive.PositiveE2eScenarios] - checkout successfully
+INFO - [09-05-2025 18-46-33] [main] [listener.Listeners] - Test Case:addingAllProductsToCartpassed
+INFO - [09-05-2025 18-46-38] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-46-39] [main] [positive.PositiveE2eScenarios] - product is added to cart
+INFO - [09-05-2025 18-46-41] [main] [positive.PositiveE2eScenarios] - cancel order successfully
+INFO - [09-05-2025 18-46-41] [main] [listener.Listeners] - Test Case:cancelProcessAfterAddingProductpassed
+INFO - [09-05-2025 18-47-00] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-47-01] [main] [positive.PositiveE2eScenarios] - product is added to cart
+INFO - [09-05-2025 18-47-01] [main] [positive.PositiveE2eScenarios] - go to the home page and continue the shopping 
+INFO - [09-05-2025 18-47-02] [main] [listener.Listeners] - Test Case:checkContinueShoppingpassed
+INFO - [09-05-2025 18-47-08] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-47-14] [main] [positive.PositiveE2eScenarios] - a new window is opened (Facebook Page) 
+INFO - [09-05-2025 18-47-14] [main] [listener.Listeners] - Test Case:verifyFacebookIconFunpassed
+INFO - [09-05-2025 18-47-23] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-47-26] [main] [positive.PositiveE2eScenarios] - a new window is opened (LinkedIn Page) 
+INFO - [09-05-2025 18-47-27] [main] [listener.Listeners] - Test Case:verifyLinkedinIconFunpassed
+INFO - [09-05-2025 18-47-32] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-47-49] [main] [positive.PositiveE2eScenarios] - a new window is opened (twitter Page) 
+INFO - [09-05-2025 18-47-49] [main] [listener.Listeners] - Test Case:verifyTwitterIconFunpassed
+INFO - [09-05-2025 18-47-56] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-48-13] [main] [positive.PositiveE2eScenarios] - a new page is opened (about Page) 
+INFO - [09-05-2025 18-48-13] [main] [listener.Listeners] - Test Case:verifyaboutBtnFunpassed
+INFO - [09-05-2025 18-48-19] [main] [swaglabs.pages.LoginPage] - login sucessfully
+INFO - [09-05-2025 18-48-19] [main] [positive.PositiveE2eScenarios] - product is added to cart
+INFO - [09-05-2025 18-48-20] [main] [positive.PositiveE2eScenarios] - reset the cart then add another product successfully
+INFO - [09-05-2025 18-48-20] [main] [listener.Listeners] - Test Case:checkAddAnotherProAfterResetpassed
+INFO - [09-05-2025 18-48-22] [main] [listener.Listeners] - Test Execution finished

@@ -1,0 +1,59 @@
+{
+
+  "product items": {
+    "item1": {
+      "product name": "Sauce Labs Backpack",
+      "price": "$29.99"
+    },
+    "item2": {
+      "product name": "Sauce Labs Bike Light",
+      "price": "$9.99"
+    },
+    "item3": {
+      "product name": "Sauce Labs Bolt T-Shirt",
+      "price": "$15.99"
+    },
+    "item4": {
+      "product name": "Sauce Labs Fleece Jacket",
+      "price": "$49.99"
+    },
+    "item5": {
+      "product name": "Sauce Labs Onesie",
+      "price": "$7.99"
+    },
+    "item6": {
+      "product name": "Test.allTheThings() T-Shirt (Red)",
+      "price": "$15.99"
+    }
+  },
+
+
+  "orderofData":{
+    "order1":"Price (low to high)",
+    "order2":"Price (high to low)",
+
+    "order3":"Name (A to Z)",
+    "order4":"Name (Z to A)"
+  },
+
+
+  "login credintial":
+{
+  "username":"standard_user",
+  "password":"secret_sauce"
+},
+
+  "checkoutdata":
+  {"data1": {"firstname":"radwa",
+    "lastname":"waleed",
+    "postalcode": 123} 
+
+  },
+
+
+  "invalid login credintial":
+  {
+    "username":"standard_user",
+    "password":"wrong_password"
+  }
+}
